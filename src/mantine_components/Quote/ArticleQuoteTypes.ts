@@ -1,0 +1,3 @@
+type ArticleQuoteProps = {
+  quote: string;
+}

@@ -1,0 +1,54 @@
+
+
+.mycontainer {
+        background-color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 75%; /* Set the width to 75% of the available width */
+
+
+  }
+
+
+  .form{
+    margin: 0 auto;
+    width: 100%; /* Set a max-width for the form to prevent it from stretching */
+    max-width: 500px; /* Adjust the max-width as needed */
+  }
+
+
+
+  .customflexcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 4px;
+  border-radius: 9999px; /* Use a large value for rounded corners to create a circular shape */
+}
+
+.custom-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 9999px; /* Use a large value for rounded corners to create a circular shape */
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #ddd; /* Add a background color on hover */
+}
+
+.custom-button:focus {
+  outline: none; /* Remove the default focus outline */
+}
+
+/* Styles for the active state */
+.custom-button.active {
+  background-color: #ff0000; /* Set the background color for the active state */
+  color: #fff; /* Set the text color for the active state */
+}

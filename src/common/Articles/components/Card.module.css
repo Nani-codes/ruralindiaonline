@@ -1,0 +1,96 @@
+.div {
+	border-radius: 16px; /* rounded-[16px] */
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); /* shadow-[0px_1px_4px_rgba(0,_0,_0,_0.10)] */
+	background-color: #f5f5f5; /* bg-whitesmoke (replace with actual color if different) */
+	font-family: sans-serif; /* font-sans */
+	display: flex; /* flex */
+	flex-direction: row; /* flex-row */
+	align-items: stretch; /* items-stretch */
+	overflow: hidden; /* overflow-hidden */
+	padding: 24px; /* p-[24px] */
+}
+
+/* Dark mode styles */
+.dark .div {
+	background-color: #181818; /* dark:bg-primary-pari-black (replace with actual color) */
+}
+
+.container {
+	width: 260px; /* w-[260px] */
+	padding: 0; /* Default padding, overridden by media queries */
+}
+
+/* Responsive padding */
+@media (max-width: 640px) {
+	/* xs */
+	.container {
+		padding: 0; /* xs:p-[0px] */
+		display: none; /* xs:hidden */
+	}
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+	/* sm */
+	.container {
+		padding: 0; /* sm:p-[0px] */
+		display: none; /* sm:hidden */
+	}
+}
+
+/* Add additional media queries as needed for sm2, sm3 */
+
+.title {
+	font-size: 18px; /* text-[18px] */
+	color: black; /* text-gray or any color */
+	line-height: 25.2px; /* Height of a single line */
+	font-weight: 600;
+	overflow: hidden; /* Hide overflowing content */
+	display: -webkit-box; /* Required for clamping */
+	-webkit-box-orient: vertical; /* Vertical text orientation */
+	-webkit-line-clamp: 2; /* Clamp to 2 lines */
+	text-overflow: ellipsis; /* Show ellipsis */
+	margin-bottom: 0.5rem;
+
+	/* Explicit height */
+	height: calc(25.2px * 2);
+}
+
+/* Dark mode styles */
+.dark .title {
+	color: white; /* dark:text-white */
+}
+
+.author {
+	font-size: 15px; /* text-[15px] */
+	color: #828282; /* text-gray-3 (replace with actual color) */
+	font-weight: 500; /* font-medium */
+	margin-bottom: 0.5rem; /* mb-[0.5rem] */
+	overflow: hidden; /* For line-clamp effect */
+	display: -webkit-box; /* For line-clamp effect */
+	-webkit-box-orient: vertical; /* For line-clamp effect */
+	-webkit-line-clamp: 2; /* Clamp to 2 lines */
+	text-overflow: ellipsis; /* Show ellipsis */
+	display: -webkit-box; /* Required for clamping */
+	height: calc(23.25px * 2);
+}
+
+/* Dark mode styles */
+.dark .author {
+	color: #bdbdbd; /* dark:text-gray-7 (replace with actual color) */
+}
+
+.locale {
+	font-size: 12px; /* text-[15px] */
+	color: #4f4f4f; /* text-gray-3 (replace with actual color) */
+	font-weight: 500; /* font-medium */
+	margin-bottom: 0.5rem; /* mb-[0.5rem] */
+	overflow: hidden; /* For line-clamp effect */
+	display: -webkit-box; /* For line-clamp effect */
+	-webkit-box-orient: vertical; /* For line-clamp effect */
+	height: calc(18.6px);
+}
+
+/* Dark mode styles */
+.dark .locale {
+	color: #828282; /* dark:text-gray-7 (replace with actual color) */
+}

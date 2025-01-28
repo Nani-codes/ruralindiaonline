@@ -1,0 +1,29 @@
+.root {
+  --button-radius: 48px;
+  &[data-variant='filled'] {
+    &:hover {
+      color: var(--button-bg);
+      background-color: white;
+      box-shadow: inset 0 0 0 1px var(--button-bg);
+    }
+  }
+
+  &[data-variant='outline-hover-filled'] {
+    background: transparent !important;
+    color: var(--button-bg) !important;
+    border: 1px solid var(--button-bg) !important;
+    &:hover {
+      color: white !important;
+      background-color: var(--button-bg) !important;
+    }
+  }
+
+  &[data-variant='outline-inverted-hover'] {
+    background: transparent !important;
+    box-shadow: 0 0 0 2px var(--button-color) !important;
+    &:hover {
+      color: var(--button-bg) !important;
+      background-color: var(--button-color) !important;
+    }
+  }
+}

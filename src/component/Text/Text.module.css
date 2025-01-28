@@ -1,0 +1,175 @@
+/* Extra large devices (xl) */
+
+.main-title-one {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 122%;
+  letter-spacing: -0.04em;
+}
+.main-title-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2em;
+  line-height: 122%;
+  letter-spacing: -0.03em;
+}
+.regular-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  letter-spacing: -0.01em;
+}
+
+.medium-text-one {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 170%;
+  letter-spacing: -0.01em;
+}
+
+.heading-one {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+}
+
+.heading-two {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.label-desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.fSizeDiffLabel {
+  font-size: 13px;
+}
+.fSizeDiffDescription {
+  font-size: 14px;
+}
+
+/* Small devices (sm) */
+@media (min-width: 320px) and (max-width: 639px) {
+  /* CSS styles for small devices */
+
+  .main-title-one {
+    font-size: 32px;
+  }
+
+  .heading-one {
+    font-size: 22px;
+  }
+
+  .heading-two {
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+  }
+
+  .label {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .label-desc {
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .regular-text {
+    font-size: 15px;
+    letter-spacing: -0.03em;
+  }
+
+  .medium-text-one {
+    font-size: 15px;
+    letter-spacing: -0.04em;
+  }
+}
+
+/* Medium devices (md) */
+@media (min-width: 641px) and (max-width: 768px) {
+  /* CSS styles for medium devices */
+
+  .main-title-one {
+    font-size: 32px;
+  }
+
+  .heading-one {
+    font-size: 22px;
+  }
+
+  .heading-two {
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+  }
+
+  .label {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .label-desc {
+    font-size: 14px;
+    line-height: 160%;
+  }
+}
+
+/* Large devices (lg) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS styles for large devices */
+
+  .main-title-one {
+    font-size: 48px;
+  }
+
+  .heading-one {
+    font-size: 24px;
+    letter-spacing: -0.04em;
+  }
+
+  .heading-two {
+    font-size: 20px;
+    line-height: 135%;
+  }
+
+  .label {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .label-desc {
+    font-size: 15px;
+    line-height: 180%;
+  }
+}
+
+/* 2 Extra large devices (2xl) */
+@media (min-width: 1281px) and (max-width: 1536px) {
+  /* CSS styles for 2 extra large devices */
+
+  .main-title-one {
+    font-size: 56px;
+  }
+}

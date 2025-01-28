@@ -1,0 +1,12 @@
+.red-link {
+	color: #b82929;
+}
+.custom-grid-spacing {
+	column-gap: 6rem; /* Adjust this value for more or less spacing */
+}
+
+@media (max-width: 768px) {
+	.custom-grid-spacing {
+		gap: 1rem; /* Reduce gap on smaller screens */
+	}
+}

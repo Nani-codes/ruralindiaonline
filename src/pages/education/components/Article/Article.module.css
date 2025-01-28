@@ -1,0 +1,7 @@
+.indicator {
+    width: rem(24px);
+    height: rem(24px);
+    transition: width 100ms ease;
+    transform: translate(0, 10px);
+  
+  }

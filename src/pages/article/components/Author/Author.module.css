@@ -1,0 +1,192 @@
+.content {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 75%;
+
+}
+.card {
+  border-radius: 10px; /* Adjust the value to control the curve of the card */
+  background-color: #fff; /* Set the background color of the card */
+  padding: 20px; /* Add padding to the content inside the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+}
+.author {
+  width: 100%;
+}
+
+.left.disable, .right.disable {
+  pointer-events: none; /* Disable pointer events, making the button non-clickable */
+  background-color: lightgray; /* Change the background color to indicate it's disabled */
+  /* You can add other styles to indicate the button is disabled */
+}
+
+.col {
+  padding: 32px;
+  position: relative;
+
+  background-color: var(--color-footer-bg);
+  border-radius: 16px;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.12));
+}
+
+.icons {
+  gap: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col p {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
+  letter-spacing: -0.02em;
+  color: #828282;
+}
+
+.col h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #828282;
+}
+
+.col button {
+  align-self: flex-start;
+}
+
+.col h1.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  color: #B82929;
+  margin-top: 12px;
+}
+
+.col .desc{
+  margin-top: 8px;
+}
+
+.col .desc p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
+  
+  letter-spacing: -0.03em;
+  color: var(--color-desc-two);
+  margin: 0px;
+}
+.carouselArrows{
+  padding-top: 50;
+}
+.col .desc_new p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
+  
+  letter-spacing: -0.03em;
+ 
+  margin: 0px;
+}
+
+
+/* sm1 */
+
+/* Define specific styles for each breakpoint if needed */
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .content {
+    grid-template-columns: repeat(auto-fit, minmax(279px, 1fr));
+  }
+
+ .carouselContainer{
+  width: 224px;
+ }
+}
+
+@media screen and (min-width: 375px) and (max-width: 429px) {
+  .content {
+    grid-template-columns: repeat(auto-fit, minmax(334px, 1fr));
+  }
+  .carouselContainer{
+    width: 279px;
+   }
+}
+
+@media screen and (min-width: 430px) and (max-width: 767px) {
+  .content {
+    grid-template-columns: repeat(auto-fit, minmax(334px, 1fr));
+  }
+  .carouselContainer{
+    width: 334px;
+   }
+
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .content {
+    grid-template-columns: repeat(auto-fit, minmax(334px, 1fr));
+  }
+  .carouselContainer{
+    width: 624px;
+   }
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .content {
+    grid-template-columns: repeat(auto-fit, minmax(334px, 1fr));
+  }
+  .carouselContainer{
+    width: 694px;
+   }
+
+}
+
+
+
+@media screen and (max-width: 4579px) {
+  .content {
+    grid-template-columns: repeat(auto-fit, minmax(334px, 1fr));
+  }
+
+}
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .content {
+    width: 758px;
+  }
+
+  .desc {
+    width: 100%; 
+  }
+} */
+
+
+
+
+
+
+
+
+
+/* Media query for screens with a minimum width of 320px */

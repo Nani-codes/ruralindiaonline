@@ -1,0 +1,3 @@
+type ArticleTextProps = {
+  text: string;
+}

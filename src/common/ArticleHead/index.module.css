@@ -1,0 +1,91 @@
+.navbar {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Ensures the element sticks to the top of the viewport */
+    background-color: white;
+    font-family: sans-serif;
+    z-index: 10;
+    transition: all 0.3s ease; /* Default transition duration and timaxg function */
+    border-bottom: 1px solid #d3d3d3; /* Light gray border */
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode .navbar {
+    background-color: #1a1a1a; /* Dark background color */
+    border-bottom-color: #444; /* Darker gray border */
+  }
+
+
+.container {
+    max-width: 100%; /* Adjust as necessary for your design */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 104px;
+    padding-right: 104px; */
+
+}
+
+@media (min-width: 479px) { 
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+} 
+@media (min-width: 480px)
+ /* and (max-width:640px) */
+ { /* sm */
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 768px)
+ /* and (max-width:1536px) */
+ {
+    .container {
+        padding-left: 104px;
+        padding-right: 104px;
+    }
+}
+
+
+.logodiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; /* Default gap */
+}
+@media (min-width: 640px) { /* md and above */
+    .logodiv {
+        gap: 12px;
+    }
+}
+@media (max-width: 639px) { /* sm and below */
+    .logodiv {
+        gap: 12px;
+    }
+}
+
+@media (max-width: 479px) { /* xs */
+    .logodiv {
+        gap: 12px;
+    }
+}
+
+.logo {
+    display: inline-block; /* Allows padding to work */
+    padding-left: 1rem; /* Equivalent to px-4 */
+    padding-right: 1rem; /* Equivalent to px-4 */
+    text-decoration: none; /* Remove underline */
+    background-image: url('/public/logo-white.svg'); /* Default background image */
+    background-size: cover; /* Adjusts background image to cover the element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image */
+  }
+  
+  .dark logo {
+    background-image: url('/public/logo-white.svg'); /* Background image for dark mode */
+  }
+  

@@ -1,0 +1,92 @@
+.container {
+    display: grid; /* Use grid layout */
+    grid-template-rows: none; /* Equivalent to grid-rows-none */
+    grid-template-columns: 1fr; /* Default to a single column */
+    gap: 1rem; /* Default gap between grid items */
+  
+    /* Extra small screens */
+    @media (max-width: 320px) {
+      padding-left: 2rem; /* Equivalent to xs:px-[2rem] */
+      padding-right: 2rem; /* Equivalent to xs:px-[2rem] */
+    }
+  
+    /* Small screens (321px - 412px) */
+    @media (min-width: 321px) and (max-width: 412px) {
+      padding-left: 2rem; /* Equivalent to sm:px-[2rem] */
+      padding-right: 2rem; /* Equivalent to sm:px-[2rem] */
+    }
+  
+    /* Small 2 screens (413px - 576px) */
+    @media (min-width: 413px) and (max-width: 576px) {
+      padding-left: 2rem; /* Equivalent to sm2:px-[2rem] */
+      padding-right: 2rem; /* Equivalent to sm2:px-[2rem] */
+    }
+  
+    /* Small 3 screens (577px - 767px) */
+    @media (min-width: 577px) and (max-width: 767px) {
+      padding-left: 2rem; /* Equivalent to sm3:px-[2rem] */
+      padding-right: 2rem; /* Equivalent to sm3:px-[2rem] */
+    }
+  
+    /* Medium screens (768px - 1023px) */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      padding-left: 2rem; /* Equivalent to md:px-[2rem] */
+      padding-right: 2rem; /* Equivalent to md:px-[2rem] */
+    }
+  
+    /* Large screens (1024px and above) */
+    @media (min-width: 1024px) {
+      grid-template-columns: 1fr; /* Equivalent to lg:grid-cols-1 */
+    }
+  
+    /* Extra large screens (1280px and above) */
+    @media (min-width: 1280px) {
+      grid-template-columns: repeat(2, 1fr); /* Equivalent to xl:grid-cols-2 */
+    }
+  
+    /* 2X large screens (1536px and above) */
+    @media (min-width: 1536px) {
+      grid-template-columns: repeat(2, 1fr); /* Equivalent to 2xl:grid-cols-2 */
+    }
+  
+    /* 3X large screens (1920px and above) */
+    @media (min-width: 1920px) {
+      grid-template-columns: repeat(2, 1fr); /* Equivalent to 3xl:grid-cols-2 */
+    }
+  }
+  
+  .div {
+    padding-bottom: 46px; /* Equivalent to pb-[46px] */
+    padding-top: 56px; /* Equivalent to pt-[56px] */
+    
+    /* Medium screens (768px - 1023px) */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      padding-left: 32px; /* Equivalent to md:px-[32px] */
+      padding-right: 32px; /* Equivalent to md:px-[32px] */
+    }
+  
+    /* Large screens (1024px - 1279px) */
+    @media (min-width: 1024px) and (max-width: 1279px) {
+      padding-left: 104px; /* Equivalent to lg:px-[104px] */
+      padding-right: 104px; /* Equivalent to lg:px-[104px] */
+    }
+  
+    /* Extra large screens (1280px - 1535px) */
+    @media (min-width: 1280px) and (max-width: 1535px) {
+      padding-left: 104px; /* Equivalent to xl:px-[104px] */
+      padding-right: 104px; /* Equivalent to xl:px-[104px] */
+    }
+  
+    /* 2X large screens (1536px - 1919px) */
+    @media (min-width: 1536px) and (max-width: 1919px) {
+      padding-left: 104px; /* Equivalent to 2xl:px-[104px] */
+      padding-right: 104px; /* Equivalent to 2xl:px-[104px] */
+    }
+  
+    /* 3X large screens (1920px and above) */
+    @media (min-width: 1920px) {
+      padding-left: 104px; /* Equivalent to 3xl:px-[104px] */
+      padding-right: 104px; /* Equivalent to 3xl:px-[104px] */
+    }
+  }
+  

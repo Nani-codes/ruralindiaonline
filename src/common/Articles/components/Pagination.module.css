@@ -1,0 +1,63 @@
+.nextlink {
+    display: flex; /* flex */
+    flex-direction: row; /* flex-row */
+    align-items: center; /* items-center */
+    border: 2px solid #b82929; /* border-2 border-primary-pari-red (replace with actual color) */
+    padding-left: 24px; /* px-[24px] */
+    padding-right: 24px; /* px-[24px] */
+    padding-top: 12px; /* py-[12px] */
+    padding-bottom: 12px; /* py-[12px] */
+    border-radius: 9999px; /* rounded-full */
+    color: #b82929; /* text-primary-pari-red (replace with actual color) */
+    gap: 8px; /* gap-[8px] */
+  }
+  .previouslink {
+    display: flex; /* flex */
+    flex-direction: row; /* flex-row */
+    align-items: center; /* items-center */
+    border: 2px solid #b82929; /* border-2 border-primary-pari-red (replace with actual color) */
+    padding-left: 24px; /* px-[24px] */
+    padding-right: 24px; /* px-[24px] */
+    padding-top: 12px; /* py-[12px] */
+    padding-bottom: 12px; /* py-[12px] */
+    border-radius: 9999px; /* rounded-full */
+    color: #b82929; /* text-primary-pari-red (replace with actual color) */
+    gap: 8px; /* gap-[8px] */
+  }
+  
+  .pagelink {
+    border: 2px solid transparent; /* border-2 rounded-full border-transparent */
+    border-radius: 9999px; /* rounded-full */
+    padding-left: 24px; /* px-[24px] */
+    padding-right: 24px; /* px-[24px] */
+    padding-top: 12px; /* py-[12px] */
+    padding-bottom: 12px; /* py-[12px] */
+    font-family: sans-serif; /* font-sans */
+    font-size: 15px; /* text-[15px] */
+    font-weight: 600; /* font-semibold */
+    line-height: 27px; /* leading-[27px] */
+    letter-spacing: -0.3px; /* tracking-[-0.3px] */
+    transition: border-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .pagelink:hover {
+    border-color: #b82929; /* hover:border-2 hover:border-primary-pari-red (replace with actual color) */
+  }
+  .activelink {
+    border: 2px solid #b82929; /* border-2 !border-primary-pari-red (replace with actual color) */
+    border-radius: 9999px; /* rounded-full */
+    background-color: #EB5757; /* bg-[#EB5757] */
+    color: white; /* text-white */
+  }
+  
+  .disabledlink {
+    opacity: 0.3; /* opacity-30 */
+  }
+  .container {
+    display: flex; /* flex */
+    flex-direction: row; /* flex-row */
+    gap: 8px; /* gap-[8px] */
+    align-items: center; /* items-center */
+    flex-wrap: wrap; /* flex-wrap */
+  }
+  

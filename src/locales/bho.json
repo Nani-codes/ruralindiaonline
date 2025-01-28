@@ -1,0 +1,67 @@
+{
+	"Index": {
+		"title": "पारी पर आपका स्वागत है",
+		"subtitle": "हमारी दुनिया की झलक",
+		"JumpToStories": "सीधा स्टोरी पर जाएं",
+		"ThisWeekOnPari": "पारी पर यह हफ़्ता",
+		"SeeAllStories": "सभी स्टोरी देखें",
+		"PariRecommends": "पारी द्वारा सुझाया गया कॉन्टेंट देखें",
+		"InFocus": "चर्चा में",
+		"AudioAndVideo": "ऑडियो और वीडियो स्टोरी",
+		"MoreAudioAndVideo": "और भी ऑडियो व वीडियो देखें",
+		"Filters": "फ़िल्टर",
+		"Donate": "आर्थिक सहयोग करें",
+		"ChooseLanguage": "भाषा चुनें",
+		"SeeMoreReports": "See more reports"
+	},
+	"footer": {
+		"name": "पारी पर आपका स्वागत है",
+		"Grievances": "शिकायत",
+		"TermsofService": "नियम और शर्तें",
+		"Copyright": "कॉपीराइट",
+		"ContactUs": "संपर्क करें",
+		"Guidelines": "दिशा-निर्देश",
+		"GetInvolved": "साथ आएं",
+		"Acknowledgements": "आभार",
+		"Awards": "पुरस्कार",
+		"PARIteam": "पारी की टीम",
+		"StoryofPARI": "पारी की कहानी",
+		"Donate": "आर्थिक सहयोग करें",
+		"Education": "पारी एजुकेशन",
+		"Library": "लाइब्रेरी",
+		"Stories": "प्रकाशित स्टोरी",
+		"About": "हमारे बारे में"
+	},
+	"menu": {
+		"about": "हमारे बारे में",
+		"Education": "पारी एजुकेशन",
+		"Library": "लाइब्रेरी",
+		"stories": "प्रकाशित स्टोरी",
+		"involved": "साथ आएं"
+	},
+	"date": {
+		"weekdays": {
+			"Sunday": "रविवार",
+			"Monday": "सोमवार",
+			"Tuesday": "मंगलवार",
+			"Wednesday": "बुधवार",
+			"Thursday": "गुरुवार",
+			"Friday": "शुक्रवार",
+			"Saturday": "शनिवार"
+		},
+		"months": {
+			"January": "जनवरी",
+			"February": "फरवरी",
+			"March": "मार्च",
+			"April": "अप्रैल",
+			"May": "मई",
+			"June": "जून",
+			"July": "जुलाई",
+			"August": "अगस्त",
+			"September": "सितंबर",
+			"October": "अक्टूबर",
+			"November": "नवंबर",
+			"December": "दिसंबर"
+		}
+	}
+}

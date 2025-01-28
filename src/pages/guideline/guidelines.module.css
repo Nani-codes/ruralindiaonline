@@ -1,0 +1,6 @@
+.label {
+    color: #828282;
+    &[data-active] {
+        color: white !important;
+    };
+}

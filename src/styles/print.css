@@ -1,0 +1,24 @@
+@media print {
+
+  @page {
+    size: A3; /* Change the page size as needed */
+    margin: 0px; /* Adjust the margins as needed */
+  }
+
+
+  body * {
+    visibility: hidden;
+  }
+
+  #sectionToPrint,
+  #sectionToPrint * {
+    visibility: visible;
+  }
+
+  #sectionToPrint {
+    position: absolute;
+    left: 0;
+    top: 0;
+    break-inside: avoid;
+  }
+}

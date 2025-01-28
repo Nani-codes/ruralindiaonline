@@ -1,0 +1,22 @@
+.card{
+  width: 30%;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px 37px 24px 24px;
+  gap: 16px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.title{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #565656;
+  border-bottom: 1px solid #565656;
+}

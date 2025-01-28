@@ -1,0 +1,102 @@
+.div {
+    background-color: white; /* bg-white */
+    font-family: sans-serif; /* font-sans */
+    position: sticky; /* sticky */
+    transition: all 0.3s ease; /* transition-all */
+  }
+  
+  .dark .div {
+    background-color: #181818; /* dark:bg-primary-pari-black (replace with actual color) */
+  }
+
+  .container {
+    max-width: 100%; /* Adjust as needed based on your layout */
+    display: flex; /* flex */
+    flex-direction: column; /* flex-col */
+    gap: 8px; /* gap-[8px] */
+    border-bottom: 1px solid #e0e0e0; /* border-b border-gray-5 (replace with actual color) */
+    padding-top: 24px; /* py-[24px] */
+    padding-bottom: 24px; /* py-[24px] */
+  }
+  
+  /* Responsive padding */
+  @media (min-width: 640px) { /* sm */
+    .container {
+      padding-left: 32px; /* px-[32px] */
+      padding-right: 32px; /* px-[32px] */
+    }
+  }
+  
+  @media (min-width: 768px) { /* md */
+    .container {
+      padding-left: 32px; /* px-[32px] */
+      padding-right: 32px; /* px-[32px] */
+    }
+  }
+  
+  @media (min-width: 1024px) { /* lg */
+    .container {
+      padding-left: 104px; /* px-[104px] */
+      padding-right: 104px; /* px-[104px] */
+    }
+  }
+  
+  @media (min-width: 1280px) { /* xl */
+    .container {
+      padding-left: 104px; /* px-[104px] */
+      padding-right: 104px; /* px-[104px] */
+    }
+  }
+  
+  @media (min-width: 1536px) { /* 2xl */
+    .container {
+      padding-left: 104px; /* px-[104px] */
+      padding-right: 104px; /* px-[104px] */
+    }
+  }
+  
+  @media (min-width: 1920px) { /* 3xl */
+    .container {
+      padding-left: 104px; /* px-[104px] */
+      padding-right: 104px; /* px-[104px] */
+    }
+  }
+  
+  /* Dark mode styles */
+  .dark .container {
+    border-color: gray; /* dark:border-gray (replace with actual color) */
+  }
+  
+  .textelement {
+    font-family: sans-serif; /* font-sans */
+    font-weight: 600; /* font-semibold */
+    color: #333333; /* text-gray-9 (replace with actual color) */
+    font-size: 15px; /* text-[15px] */
+    letter-spacing: -0.3px; /* tracking-[-0.3px] */
+    text-transform: uppercase; /* uppercase */
+  }
+  
+  /* Dark mode styles */
+  .dark .textelement {
+    color: #e0e0e0; /* dark:text-gray-5 (replace with actual color) */
+  }
+  .button {
+    border: 1px solid #4f4f4f; /* border border-gray-2 (replace with actual color) */
+    color: #4f4f4f; /* text-gray-2 (replace with actual color) */
+    padding-top: 7px; /* py-[7px] */
+    padding-bottom: 7px; /* py-[7px] */
+    padding-left: 12px; /* px-[12px] */
+    padding-right: 12px; /* px-[12px] */
+    border-radius: 32px; /* rounded-[32px] */
+    font-size: 12px; /* text-[12px] */
+    font-weight: 500; /* font-medium */
+    display: flex; /* flex */
+    gap: 4px; /* gap-[4px] */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Optional: for smooth hover transitions */
+  }
+  
+  .button:hover {
+    background-color: #4f4f4f; /* hover:bg-gray-2 (replace with actual color) */
+    color: white; /* hover:text-white */
+  }
+  

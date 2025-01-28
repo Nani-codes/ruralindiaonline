@@ -1,0 +1,21 @@
+.label {
+    color: #828282;
+    &[data-active] {
+        color: white !important;
+    };
+}
+/* Add a class for the Button */
+.custom-button {
+    border: 2px solid #2F80ED !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-family: 'Noto Sans' !important;
+    background-color: transparent !important;
+    color: #2F80ED !important;
+  }
+  
+  /* Optionally, add specific styles for the Link wrapping the button */
+  .custom-button-link {
+    display: inline-block; /* Control visibility based on screen width */
+  }
+  

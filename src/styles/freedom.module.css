@@ -1,0 +1,38 @@
+.header {
+  height: 338px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 0px 216px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 1025px) {
+  .content {
+    margin: 0px 104px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+
+}
+
+
+@media only screen and (max-width: 430px) {
+  .content {
+    margin: 0px 16px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+
+}
